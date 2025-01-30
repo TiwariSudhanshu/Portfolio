@@ -1,8 +1,6 @@
 import Sidebar from './Sidebar';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
 import { SiRedux, SiFirebase, SiTypescript, SiTailwindcss, } from 'react-icons/si';
-// import { TbBrandSocketio } from 'react-icons/tb';
-// import { MdDeveloperMode } from 'react-icons/md';
 
 function Stack() {
   const techStack = [

@@ -1,5 +1,5 @@
 import Sidebar from './Sidebar';
-import { FaCode, FaServer, FaLightbulb, FaFileDownload } from 'react-icons/fa';
+import { FaFileDownload } from 'react-icons/fa';
 
 const Resume = () => {
   const handleDownload = () => {
@@ -36,7 +36,7 @@ const Resume = () => {
             LinkedIn
           </a>{" "}
           |{" "}
-          <a href="https://github.com/sudhanshu9836" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:underline">
+          <a href="https://github.com/TiwariSudhanshu" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:underline">
             GitHub
           </a>
         </p>
@@ -57,7 +57,8 @@ const Resume = () => {
           <li>React.js</li>
           <li>Node.js</li>
           <li>MongoDB</li>
-          <li>Tailwind</li>
+          <li>Next js</li>
+          <li>Tailwind/Material UI</li>
           <li>HTML, CSS, JS/TS</li>
         </ul>
       </section>
@@ -70,16 +71,17 @@ const Resume = () => {
             <strong>E-commerce Websites</strong> – Made an ice-cream store website and a shoes store website
           </li>
           <li>
-            <strong>Profiler</strong> – Complete a small and basic social media web app
+            <strong>soZial</strong> – Complete a small and basic social media web app
           </li>
           <li>
             <strong>Travel Agency</strong> – Collaborated with a teammate for the hackathon and made a travel agency web app
           </li>
           <li>
-            <strong>Basic Utility WebApp</strong> – Made a few utility apps like Calculator, Password Generator, Currency Converter, Todo List, etc.
+            <strong>E-Cell Utility</strong> – Currently working on Ecell website of college and has made varous utilities
+            like escanify, blog web for the club
           </li>
           <li>
-            <strong>Basic Games</strong> – Started all with a few games like Tic Tac Toe, Simon Says, etc.
+            <strong>Treasure Hunt</strong>  – A real-life game of treasure hunt with more than 100+ participants
           </li>
         </ul>
       </section>
@@ -99,7 +101,7 @@ const Resume = () => {
       <section className="mb-6">
         <h2 className="text-2xl font-bold text-teal-500 mb-2">Professional Accomplishments</h2>
         <ul className="list-disc pl-6">
-          <li>Completed Web Development internship at Bharat Intern and Codsoft</li>
+          <li>Rank 4 in Web3 buildathon</li>
           <li>Won ranks in college hackathons</li>
         </ul>
       </section>
