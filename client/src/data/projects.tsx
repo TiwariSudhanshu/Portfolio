@@ -2,14 +2,14 @@ export const projects = [
     {
       title: 'soZial',
       description: 'A social media platform where users can share and connect with others.',
-      coverImage: 'https://via.placeholder.com/500x300?text=Project+1',
+      coverImage: 'https://res.cloudinary.com/dr51pu9n9/image/upload/v1738306631/cjeta4tssf7mwtjakz4l.png',
       rating: 5,
       url: 'https://github.com/TiwariSudhanshu/soZial',
     },
     {
         title: 'Treasure Hunt',
         description: 'Real Time application to play treasure hunt game offline(used in event).',
-        coverImage: 'https://media.licdn.com/dms/image/v2/D4D2DAQEz2vexPdhXzA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1715883997385?e=1738198800&v=beta&t=Oh2dVR6lbGRku-3J9SXZbVeRBjCF6CGgAvBXPhgFXls',
+        coverImage: 'https://i.pinimg.com/736x/15/e7/13/15e713da6f8293f40a9910abe70937c2.jpg',
         rating: 4,
         url: 'https://e-cell-rgpv-treasure-hunt.web.app/',
       },
@@ -23,14 +23,14 @@ export const projects = [
     {
       title: 'Frosty Delight',
       description: 'An ice cream store website where users can order ice cream.',
-      coverImage: 'https://media.licdn.com/dms/image/v2/D4D2DAQF67xzSVET0vA/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1730562794635?e=1738198800&v=beta&t=RQUpWXncfD7-02ieW6jDnTNePfVEtbYJtO0wEO_ux4w',
+      coverImage: 'https://media.licdn.com/dms/image/v2/D4D2DAQF67xzSVET0vA/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1730562794635?e=1738911600&v=beta&t=dqJszGc72e0rLLAsay8iNWRG-YPs685gBrgkWLfBaDc',
       rating: 3,
       url: 'https://frosty-delight-icecream-1.onrender.com/',
     },
     {
       title: 'Travelo',
       description: 'A travel agency website to book packages for tourist destinations.',
-      coverImage: 'https://media.licdn.com/dms/image/v2/D4D2DAQEz2vexPdhXzA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1715883997385?e=1738198800&v=beta&t=Oh2dVR6lbGRku-3J9SXZbVeRBjCF6CGgAvBXPhgFXls',
+      coverImage: 'https://media.licdn.com/dms/image/v2/D4D2DAQEz2vexPdhXzA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1715883997385?e=1738911600&v=beta&t=H4ASEtAdQFX9n8T0f7MteaFCZnLor0fgzmVc7lrod2A',
       rating: 3,
       url: 'https://travel-agency-fawn-six.vercel.app/',
     },
@@ -45,7 +45,7 @@ export const projects = [
     {
       title: 'Currency Converter',
       description: 'A react website where users can convert currencies.',
-      coverImage: 'https://media.licdn.com/dms/image/v2/D4D2DAQG_Yhw2YsyX6Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1714336612460?e=1738198800&v=beta&t=v_2BYmNj2oPnAgTc_DQ0ujpaSciv05ASBzsTDSgwjHc',
+      coverImage: 'https://media.licdn.com/dms/image/v2/D4D2DAQG_Yhw2YsyX6Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1714336612460?e=1738911600&v=beta&t=jfVwEfaqEUujK_IMs7w8pFno5YXB4Ll_SFWS3ucxlq0',
       rating: 2,
       url: 'https://currency-changer-two.vercel.app/',
     },
@@ -54,7 +54,7 @@ export const projects = [
       description: 'Generates password based on user choice of length, numbers, characters, and has copy feature.',
       coverImage: 'https://media.licdn.com/dms/image/v2/D4D2DAQEo8cxPKaHbsQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1714067593143?e=1738198800&v=beta&t=xaEMrT36F30h1MLqr6PN0_FEz_PLL-lj5uTN4LlDy1I',
       rating: 2,
-      url: 'https://password-generator-gules-alpha.vercel.app/',
+      url: 'https://i.pinimg.com/736x/e4/56/99/e45699f5b647dd32bafefa253c865cf0.jpg'
     },
   ];
   
