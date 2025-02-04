@@ -20,18 +20,21 @@ function Sidebar() {
     <>
       {/* Hamburger Button (Visible only on small screens) */}
       <button
-        className="sm:hidden fixed top-4 left-4 z-50 text-white bg-gray-800 p-3 rounded-md shadow-md"
+        className="sm:hidden fixed top-4 left-4 z-50 text-white bg-gray-800  p-3 rounded-md shadow-md"
         onClick={() => setIsOpen(!isOpen)}
       >
         {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
       </button>
 
       {/* Sidebar */}
-      <div
-        className={`bg-gradient-to-br from-gray-800 via-gray-900 to-black text-gray-300 w-[70%] sm:w-[20%] max-h-screen overflow-y-auto min-h-screen fixed sm:relative top-0 left-0 z-40 transform ${
-          isOpen ? "translate-x-0 mb-16" : "-translate-x-full"
-        } sm:translate-x-0 transition-transform duration-300 flex flex-col items-center py-6 shadow-lg`}
-      >
+      <div id="scroll-div"
+      className={`bg-gradient-to-br from-gray-800 via-gray-900 to-black
+       text-gray-300 w-[70%] sm:w-[20%] h-screen fixed top-0 left-0 z-40
+        transform ${isOpen ? "translate-x-0" : "-translate-x-full"} 
+        sm:translate-x-0 transition-transform duration-300 flex flex-col 
+        items-center py-6 shadow-lg overflow-y-auto`}
+>
+
         {/* Profile Section */}
         <div className="flex flex-col items-center mb-10">
           <img

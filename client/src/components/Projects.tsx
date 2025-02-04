@@ -12,13 +12,13 @@ const Project = () => {
     : projects;
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex">
+<div className="flex flex-col sm:flex-row min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-gray-200">
       {/* Sidebar */}
       <Sidebar />
 
-      {/* Projects Content */}
-      <div className="flex-1 p-6 lg:p-10">
-        {/* Star Rating Filters */}
+      
+      <div className="flex-1 p-6 sm:p-10 flex flex-col items-center justify-start space-y-8 sm:space-y-12 ml-0 sm:ml-[20%]">
+
         <div className="mb-10 flex flex-wrap gap-4 justify-start">
           {[5, 4, 3, 2, 1].map(rating => (
             <motion.button

@@ -11,13 +11,13 @@ const Resume = () => {
   };
 
   return (
-    <div className="flex min-h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-black text-gray-200">
+<div className="flex flex-col sm:flex-row min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-gray-200">
       {/* Sidebar */}
       <Sidebar />
 
-      {/* Resume Content */}
-      <div className="flex-1 p-10 flex flex-col items-center justify-start space-y-12">
-        {/* Header */}
+      
+      <div className="flex-1 p-6 sm:p-10 flex flex-col items-center justify-start space-y-8 sm:space-y-12 ml-0 sm:ml-[20%]">
+
         <h1 className="text-4xl md:text-6xl font-extrabold text-teal-400 tracking-wide mb-8 animate-fadeInDown">
           My Resume
         </h1>

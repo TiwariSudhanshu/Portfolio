@@ -8,7 +8,7 @@ function AboutMe() {
       <Sidebar />
 
       {/* About Me Content */}
-      <div className="flex-1 p-6 sm:p-10 flex flex-col items-center justify-start space-y-8 sm:space-y-12">
+      <div className="flex-1 p-6 sm:p-10 flex flex-col items-center justify-start space-y-8 sm:space-y-12 ml-0 sm:ml-[20%]">
         {/* Hero Section */}
         <header className="text-center">
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold text-teal-400 tracking-wide animate-fade-in-down">

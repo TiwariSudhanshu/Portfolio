@@ -4,12 +4,13 @@ import { blogs } from '../data/blogs';
 
 const Thoughts = () => {
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex">
+<div className="flex flex-col sm:flex-row min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-gray-200">
       {/* Sidebar */}
       <Sidebar />
 
-      {/* Thoughts Content */}
-      <div className="flex-1 p-10">
+      
+      <div className="flex-1 p-6 sm:p-10 flex flex-col items-center justify-start space-y-8 sm:space-y-12 ml-0 sm:ml-[20%]">
+
         <motion.h1
           className="text-5xl md:text-7xl font-extrabold text-teal-400 tracking-wide mb-12 text-center"
           initial={{ opacity: 0, y: -50 }}
