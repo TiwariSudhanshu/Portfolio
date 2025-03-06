@@ -11,8 +11,6 @@ import {
   FaTimes,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { FaMessage } from "react-icons/fa6";
-
 function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -20,7 +18,7 @@ function Sidebar() {
     <>
       {/* Hamburger Button (Visible only on small screens) */}
       <button
-        className="sm:hidden fixed top-4 left-4 z-50 text-white bg-gray-800  p-3 rounded-md shadow-md"
+        className="sm:hidden  top-4 left-4  z-50 text-white  p-3 rounded-md shadow-md"
         onClick={() => setIsOpen(!isOpen)}
       >
         {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
@@ -101,7 +99,6 @@ function Sidebar() {
           <h5 className="text-sm font-semibold text-gray-500 mb-4">CONNECT</h5>
           {[
             { to: "/contact", label: "Socials", Icon: HiOutlineMail },
-            { to: "/message", label: "Message", Icon: FaMessage },
           ].map(({ to, label, Icon }) => (
             <NavLink
               key={to}

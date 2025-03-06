@@ -1,4 +1,13 @@
 export const experiences = [
+  {
+    logo: 'https://media.licdn.com/dms/image/v2/D560BAQH4Fx3MSmWe5g/company-logo_200_200/company-logo_200_200/0/1688656180398?e=1749081600&v=beta&t=_BUKSFElXb2w0DdSVj4anZxT6WTntSxIARbT1SYSums',
+    title: 'Member and Chapter Lead',
+    company: 'Bhopal Dao',
+    type: 'Full Time',
+    duration: 'Mar 2025 - Present',
+    location: 'Bhopal, Madhya Pradesh',
+    skills: ['Solidity', 'Web3'],
+  },
     {
       logo: 'https://media.licdn.com/dms/image/v2/D560BAQHqqREuYOZewQ/company-logo_200_200/company-logo_200_200/0/1701272685881/unstop_logo?e=1745452800&v=beta&t=vXrfQTeTDBxBUvlDtIJqWv_2ztfi7uz9KrWizj5obzM',
       title: 'Campus Ambassador',

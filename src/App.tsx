@@ -4,7 +4,6 @@ import Experience from "./components/Experience";
 import Services from "./components/Services";
 import Stack from "./components/Stack";
 import Contact from "./components/Contact";
-import Message from "./components/Message";
 import Projects from "./components/Projects";
 import Thoughts from "./components/Thoughts";
 import Resume from "./components/Resume";
@@ -20,7 +19,6 @@ function App() {
         <Route path="/thoughts" element={<Thoughts />} />
         <Route path="/stacks" element={<Stack />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/message" element={<Message />} />
       </Routes>
     </HashRouter>
   );

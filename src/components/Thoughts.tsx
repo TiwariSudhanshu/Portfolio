@@ -1,6 +1,6 @@
 import Sidebar from './Sidebar'; // Assuming you have a Sidebar component
 import { motion } from 'framer-motion';
-import { blogs } from '../data/blogs';
+// import { blogs } from '../data/blogs';
 
 const Thoughts = () => {
   return (
@@ -19,9 +19,10 @@ const Thoughts = () => {
         >
           My Blogs & Thoughts
         </motion.h1>
+        <div>Coming soon...</div>
 
-        <div className="space-y-10">
-          {blogs.map((blog, index) => (
+        {/* <div className="space-y-10">
+          {blogs?.map((blog, index) => (
             <motion.div
               key={index}
               className="bg-gray-800 rounded-lg overflow-hidden shadow-xl hover:scale-105 transition-all"
@@ -33,7 +34,6 @@ const Thoughts = () => {
             >
               <a href={blog.url} className="block">
                 <div className="relative p-6">
-                  {/* Gradient Overlay on Blog */}
                   <motion.div
                     className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-30"
                     initial={{ opacity: 0 }}
@@ -49,7 +49,7 @@ const Thoughts = () => {
               </a>
             </motion.div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -32,7 +32,7 @@ const Resume = () => {
         <h1 className="text-4xl font-bold text-teal-500">Sudhanshu Tiwari</h1>
         <p>Bhopal | +91 9026058419 | sudhanshutiwari9836@gmail.com</p>
         <p>
-          <a href="https://www.linkedin.com/in/sudhanshu-tiwari-/" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:underline">
+          <a href="https://www.linkedin.com/in/sudhanshu--tiwari-/" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:underline">
             LinkedIn
           </a>{" "}
           |{" "}
@@ -111,7 +111,8 @@ const Resume = () => {
         <h2 className="text-2xl font-bold text-teal-500 mb-2">Work History</h2>
         <ul className="list-disc pl-6">
           <li>Code4All, Bhopal, Tech-Team, (12/2023–07/2024)</li>
-          <li>Ecell RGPV Bhopal, Tech Team (07/2024–Present)</li>
+          <li>Ecell RGPV Bhopal, Tech Team (05/2024–Present)</li>
+          <li>Bhopal Dao, Member (03/2025–Present)</li>
         </ul>
       </section>
 

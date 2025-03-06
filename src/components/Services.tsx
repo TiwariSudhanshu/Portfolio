@@ -7,7 +7,7 @@ function Services() {
       icon: <FaCode className="text-teal-400 text-4xl" />,
       title: 'Frontend Development',
       description:
-        'Craft visually stunning, responsive, and user-friendly interfaces using modern technologies like React.js, HTML, CSS, and JavaScript.',
+        'Craft visually stunning, responsive, and user-friendly interfaces using modern technologies like React.js, Tailwind, Material UI etc.',
     },
     {
       icon: <FaServer className="text-teal-400 text-4xl" />,
